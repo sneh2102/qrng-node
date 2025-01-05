@@ -1,0 +1,33 @@
+{
+  "name": "qrng-node",
+  "version": "1.0.0",
+  "description": "A Quantum Random Number Generator for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "postinstall": "electron-rebuild -f -w qrng-node"
+  },
+  "author": "Sneh Patel",
+  "license": "MIT",
+  "keywords": [
+    "quantum",
+    "random",
+    "qrng",
+    "node-addon-api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sneh2102/qrng-node.git"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^8.3.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "gypfile": true
+}
