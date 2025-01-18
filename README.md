@@ -203,3 +203,27 @@ Get a human-readable error message.
 
 **Returns:**
 - `String` (Error description)
+
+
+
+##  Development & Contribution
+
+### Clone the Repository
+```sh
+git clone https://github.com/your-username/qrng-node.git
+cd qrng-node
+npm install
+```
+
+### Build the Native Module
+```sh
+npx node-gyp rebuild
+```
+
+### Run Test file
+```sh
+node test.js
+```
+
+## License
+This project is licensed under the MIT License.
