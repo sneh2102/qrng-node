@@ -32,7 +32,6 @@ const qrng = require('qrng-node');
 
 // Initialize the QRNG context
 const ctx = qrng.init();
-
 //  Generate Random Bytes (16 bytes)
 const randomBytes = qrng.generateBytes(ctx, 16);
 console.log("Random Bytes:", randomBytes.toString('hex'));
@@ -206,7 +205,7 @@ Get a human-readable error message.
 
 
 
-##  Development & Contribution
+#  Development & Contribution
 
 ### Clone the Repository
 ```sh
