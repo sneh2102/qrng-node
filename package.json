@@ -4,8 +4,7 @@
   "description": "A Quantum Random Number Generator for Node.js",
   "main": "index.js",
   "scripts": {
-    "install": "node-gyp rebuild",
-    "postinstall": "electron-rebuild -f -w qrng-node"
+    "install": "node-gyp rebuild"
   },
   "author": "Sneh Patel",
   "license": "MIT",
