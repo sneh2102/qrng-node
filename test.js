@@ -1,4 +1,4 @@
-const qrng = require('qrng-node');
+const qrng = require('./index');
 
 // Initialize the QRNG context
 const ctx = qrng.init();
